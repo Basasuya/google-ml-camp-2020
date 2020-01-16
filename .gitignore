@@ -1,0 +1,16 @@
+.DS_Store
+node_modules
+npm-debug.log
+build
+yarn-error.log
+package-lock.json
+yarn.lock
+.vscode
+.env
+.idea
+__pycache__
+.ipynb_checkpoints
+image
+!./image/file/choose.png
+*.ipynb
+rotatelearn
