@@ -4,14 +4,13 @@
 
 #### Introduction
 
-We design an web-based visualization system for image retrieval and exploration. The users can choose
-an query image, retrieve similar images from a large database in real time. We use pet dataset and get image feature using different netural networks(e.g. ADSH, VGG16, ResNet50, Inception_v3..). Meanwhile we evalutaion the KNN map precision through our experiment.
+We design a web-based visualization system for image retrieval and exploration. The users can choose a query image, retrieve similar images from an extensive database in real-time. We use the pet dataset, and train image features using different neural networks(e.g., ADSH, VGG16, ResNet50, Inception_v3..). Meanwhile, we evaluation the KNN map precision through our experiment.
 
 <img src="./assets/teaser.png">
 
 #### Architecture
 
-the file architecture is
+The file tree architecture is
 
 ```bash
 .
@@ -37,9 +36,12 @@ the file architecture is
     └── file
 ```
 
-our system is using react, flask, d3, ant design and so on. the system code is in frontend and backend folder. the deeplearning training process is in deeplearning folder.
+Our system is using react, flask, d3, ant design, tensorflow, and so on. The system code is in the frontend and backend folder. The deep learning training process is in deeplearning folder.
 
-#### Install and Run
+we use [the pet database](https://www.kaggle.com/tanlikesmath/the-oxfordiiit-pet-dataset). If you want to train on your own, please add the data to the corresponding path and set the train and test folder.
+#### Install library and run
+
+We have provided the trained image feature saved in npz file. So you can enjoy the exploration.
 
 ```bash
 # new terminal
