@@ -1,6 +1,6 @@
 # iPet - Image Retrieval & Visualizatin System Based on Deep Learning
 
-肥胖可怜又无助队，11号
+可怜无助又肥胖队，11号
 
 #### Introduction
 
