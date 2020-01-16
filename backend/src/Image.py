@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import json
-from tulip import tlp
 import random
 import numpy as np
 from sklearn.manifold import TSNE
