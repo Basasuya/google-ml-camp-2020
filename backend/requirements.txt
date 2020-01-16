@@ -1,4 +1,4 @@
-Flask_Cors=
+Flask_Cors
 numpy
 Flask
 Werkzeug
