@@ -38,7 +38,9 @@ The file tree architecture is
 
 Our system is using react, flask, d3, ant design, tensorflow, and so on. The system code is in the frontend and backend folder. The deep learning training process is in deeplearning folder.
 
-we use [the pet database](https://www.kaggle.com/tanlikesmath/the-oxfordiiit-pet-dataset). If you want to train on your own, please add the data to the corresponding path and set the train and test folder.
+we use [the pet database](https://www.kaggle.com/tanlikesmath/the-oxfordiiit-pet-dataset). 
+1. If you want to train on your own, please add the data to the corresponding path and set the train and test folder on your own. 
+2. If you want to run the visualization system, you should add all images to ./image folder
 #### Install library and run
 
 We have provided the trained image feature saved in npz file. So you can enjoy the exploration.
@@ -53,6 +55,10 @@ python router.py
 cd frontend
 npm install
 npm run start
+
+# new terminal
+cd image
+python -m http.server
 ```
 then go to [localhost:8080](http://localhost:8080)
 
