@@ -2,6 +2,8 @@
 
 可怜无助又肥胖队，11号
 
+在线网址 ： http://35.194.146.208:443/         http://35.201.164.200:443      
+
 #### Introduction
 
 We design a web-based visualization system for image retrieval and exploration. The users can choose a query image, retrieve similar images from an extensive database in real-time. We use the pet dataset, and train image features using different neural networks such as ADSH(**reference from Asymmetric Deep Supervised Hashing, AAAI 2020**), VGG16, ResNet50, Inception_v3. Meanwhile, we evaluation the KNN map precision through our experiment.
